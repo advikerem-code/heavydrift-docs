@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heavy Drift</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+(function(){try{
+  var k='heavydrift_docs_lang',s=localStorage.getItem(k);
+  var l=s||((navigator.language||'tr').toLowerCase().slice(0,2)==='tr'?'tr':'en');
+  document.documentElement.classList.add('lang-'+l);
+  document.documentElement.lang=l;
+}catch(e){document.documentElement.classList.add('lang-tr');}})();
+</script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:#F7F7F7;color:#111;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+  .topbar{background:#1A1A2E;padding:18px 24px}
+  .topbar-inner{max-width:760px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .topbar-right{display:flex;align-items:center;gap:16px}
+  .logo{text-decoration:none;color:#fff;font-size:20px;font-weight:800;letter-spacing:-0.4px;line-height:1}
+  .logo span{color:#F4A020}
+  .back{font-size:14px;color:#C9C9D6;text-decoration:none;font-weight:500}
+  .back:hover{color:#fff}
+  .langswitch{display:inline-flex;gap:2px;background:#2A2A44;border-radius:999px;padding:3px}
+  .langswitch button{border:none;background:transparent;font-family:inherit;font-size:13px;font-weight:700;color:#C9C9D6;padding:5px 12px;border-radius:999px;cursor:pointer}
+  .langswitch button.active{background:#F4A020;color:#1A1A2E}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 24px 72px;width:100%;flex:1}
+  h1{font-size:34px;font-weight:800;letter-spacing:-0.8px;margin-bottom:24px;line-height:1.15}
+  h2{font-size:21px;font-weight:800;letter-spacing:-0.3px;margin-top:36px;margin-bottom:12px}
+  h3{font-size:17px;font-weight:700;margin-top:24px;margin-bottom:8px}
+  p{font-size:16px;margin-bottom:14px}
+  ul{margin:0 0 16px 20px}
+  li{font-size:16px;margin-bottom:6px}
+  a{color:#A35F00;text-decoration:underline;word-break:break-word}
+  code{font-size:14px;background:#EFEFEF;border-radius:4px;padding:1px 5px}
+  .meta{font-size:14px;color:#737373;margin-bottom:8px}
+  .tablewrap{overflow-x:auto;margin:8px 0 18px}
+  table{border-collapse:collapse;width:100%;font-size:15px;background:#fff;border:1px solid #EBEBEB;border-radius:10px}
+  th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid #EBEBEB}
+  th{font-weight:700;background:#FFF6E6}
+  .cards{display:grid;gap:16px;margin:32px 0}
+  .card{background:#fff;border:1px solid #EBEBEB;border-radius:14px;padding:22px;text-decoration:none;color:inherit;display:flex;align-items:center;gap:14px}
+  .card:hover{border-color:#F4A020}
+  .card-text{flex:1}
+  .card h2{font-size:17px;margin:0 0 2px}
+  .card p{font-size:14px;color:#737373;margin:0}
+  .arrow{font-size:20px;color:#AAA}
+  .lede{font-size:17px;color:#555;margin-bottom:8px}
+  .mail{display:inline-block;background:#1A1A2E;color:#fff;text-decoration:none;border-radius:12px;padding:14px 20px;margin:8px 0 24px;font-weight:700}
+  .mail small{display:block;color:#F4A020;font-weight:600;font-size:14px}
+  .qa{margin-bottom:18px}
+  footer{margin-top:auto;padding:24px;text-align:center;color:#999;font-size:13px;border-top:1px solid #EBEBEB;background:#fff}
+  .en{display:none}
+  html.lang-en .en{display:revert}
+  html.lang-en .tr{display:none}
+</style>
+</head>
+<body data-title-tr="Heavy Drift" data-title-en="Heavy Drift">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="logo" href="./index.html">HEAVY <span>DRIFT</span></a>
+      <div class="topbar-right">
+        <div class="langswitch">
+          <button type="button" data-lang="tr">TR</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <h1 class="tr">Heavy Drift</h1>
+    <h1 class="en">Heavy Drift</h1>
+    <p class="lede tr">Ağır tırı tek dokunuşla sür: viraja gir, kaydır ve şeride kusursuz otur.</p>
+    <p class="lede en">Drive a heavy truck with a single touch: enter the corner, drift and settle perfectly into your lane.</p>
+    <div class="cards">
+      <a class="card" href="./privacy.html">
+        <div class="card-text">
+          <h2 class="tr">Gizlilik Politikası</h2><h2 class="en">Privacy Policy</h2>
+          <p class="tr">Hangi veriler toplanır, nasıl korunur, nasıl silinir</p>
+          <p class="en">What data is collected, how it is protected, how to delete it</p>
+        </div><span class="arrow">→</span>
+      </a>
+      <a class="card" href="./support.html">
+        <div class="card-text">
+          <h2 class="tr">Destek</h2><h2 class="en">Support</h2>
+          <p class="tr">Soruların için bize ulaş</p>
+          <p class="en">Reach us with your questions</p>
+        </div><span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>© 2026 Heavy Drift</footer>
+  <script>
+  (function(){
+    var k='heavydrift_docs_lang';
+    function apply(l){
+      var h=document.documentElement;
+      h.classList.remove('lang-tr','lang-en');
+      h.classList.add('lang-'+l);
+      h.lang=l;
+      try{localStorage.setItem(k,l);}catch(e){}
+      var t=document.body.getAttribute('data-title-'+l);
+      if(t){document.title=t;}
+      var btns=document.querySelectorAll('.langswitch button');
+      for(var i=0;i<btns.length;i++){btns[i].classList.toggle('active',btns[i].getAttribute('data-lang')===l);}
+    }
+    var cur=document.documentElement.classList.contains('lang-en')?'en':'tr';
+    var btns=document.querySelectorAll('.langswitch button');
+    for(var i=0;i<btns.length;i++){btns[i].addEventListener('click',function(){apply(this.getAttribute('data-lang'));});}
+    apply(cur);
+  })();
+  </script>
+</body>
+</html>
